@@ -16,5 +16,15 @@ namespace quanlycafe
         {
             InitializeComponent();
         }
+
+        private void FrmHome_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
