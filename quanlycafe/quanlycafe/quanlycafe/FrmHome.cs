@@ -21,5 +21,10 @@ namespace quanlycafe
         {
             Application.Exit();
         }
+
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
