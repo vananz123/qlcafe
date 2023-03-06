@@ -43,5 +43,18 @@ namespace quanlycafe
                 flowDish.Controls.Add(lb);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            flowDish.Controls.Clear();
+            Button btn = sender as Button;
+            for (int i = 0; i < 14; i++)
+            {
+                Label lb = new Label();
+                lb.Size = new Size(100, 60);
+                lb.Text = i.ToString();
+                flowDish.Controls.Add(lb);
+            }
+        }
     }
 }
