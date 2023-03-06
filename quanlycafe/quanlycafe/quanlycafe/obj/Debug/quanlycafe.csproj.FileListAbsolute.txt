@@ -1,0 +1,11 @@
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\bin\Debug\quanlycafe.exe.config
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\bin\Debug\quanlycafe.exe
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\bin\Debug\quanlycafe.pdb
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.csproj.AssemblyReference.cache
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.csproj.SuggestedBindingRedirects.cache
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.FrmHome.resources
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.Properties.Resources.resources
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.csproj.GenerateResource.cache
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.csproj.CoreCompileInputs.cache
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.exe
+C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.pdb
