@@ -28,40 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowCategory = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowDish = new System.Windows.Forms.FlowLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // flowLayoutPanel1
+            // flowCategory
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 46);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(292, 392);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.flowCategory.Location = new System.Drawing.Point(12, 77);
+            this.flowCategory.Name = "flowCategory";
+            this.flowCategory.Size = new System.Drawing.Size(350, 512);
+            this.flowCategory.TabIndex = 0;
             // 
-            // flowLayoutPanel2
+            // flowDish
             // 
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(310, 46);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(301, 392);
-            this.flowLayoutPanel2.TabIndex = 1;
+            this.flowDish.Location = new System.Drawing.Point(381, 77);
+            this.flowDish.Name = "flowDish";
+            this.flowDish.Size = new System.Drawing.Size(355, 512);
+            this.flowDish.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(13, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(112, 26);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Danh mục";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(388, 51);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 26);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Sản phẩm";
             // 
             // FrmCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.flowLayoutPanel2);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.ClientSize = new System.Drawing.Size(979, 601);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.flowDish);
+            this.Controls.Add(this.flowCategory);
             this.Name = "FrmCategory";
             this.Text = "FrmCategory";
+            this.Load += new System.EventHandler(this.FrmCategory_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.FlowLayoutPanel flowCategory;
+        private System.Windows.Forms.FlowLayoutPanel flowDish;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -24,3 +24,5 @@ C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.exe
 C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.pdb
 >>>>>>> e0a43f0ddab560c55e1c4eb138c0a1aec5437a5a
 C:\github\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.FrmLogin.resources
+D:\Laptrinh\c####\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.FrmHome.resources
+D:\Laptrinh\c####\qlcafe\quanlycafe\quanlycafe\quanlycafe\obj\Debug\quanlycafe.FrmCategory.resources
