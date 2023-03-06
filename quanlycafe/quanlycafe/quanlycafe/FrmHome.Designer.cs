@@ -1,6 +1,6 @@
 ﻿namespace quanlycafe
 {
-    partial class Form1
+    partial class FrmHome
     {
         /// <summary>
         /// Required designer variable.
