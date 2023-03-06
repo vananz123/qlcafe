@@ -16,5 +16,17 @@ namespace quanlycafe
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            Form home = new FrmHome();
+            home.ShowDialog();
+            this.Hide();
+        }
+
+        private void btnLoginOut_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
