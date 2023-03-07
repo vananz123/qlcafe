@@ -16,9 +16,21 @@ namespace quanlycafe
         {
             InitializeComponent();
         }
-
+        private void LoadAllProduct()
+        {
+            flowDish.Controls.Clear();
+            for (int i = 0; i < 14; i++)
+            {
+                Button btn = new Button();
+                btn.Size = new Size(100, 60);
+                btn.Text = i.ToString();
+                btn.Click +=new EventHandler(btnProduct_Click);
+                flowDish.Controls.Add(btn);
+            }
+        }
         private void FrmCategory_Load(object sender, EventArgs e)
         {
+            btnAddProduct.Enabled = false;
             for (int i = 0; i < 4; i++)
             {
                 Button btnCate = new Button();
@@ -30,31 +42,36 @@ namespace quanlycafe
                 btnCate.Click += new EventHandler(btnCate_Click);
                 flowCategory.Controls.Add(btnCate);
             }
+            LoadAllProduct();
         }
         protected void btnCate_Click(object sender ,EventArgs e)
         {
             flowDish.Controls.Clear();
-            Button btn =sender as Button;
             for (int i = 0; i < 4; i++)
             {
-                Label lb = new Label();
-                lb.Size = new Size(100, 60);
-                lb.Text = i.ToString();
-                flowDish.Controls.Add(lb);
+                Button btn = new Button();
+                btn.Size = new Size(100, 60);
+                btn.Text = i.ToString();
+                btn.Click += new EventHandler(btnProduct_Click);
+                flowDish.Controls.Add(btn);
             }
+        }
+        protected void btnProduct_Click( object sender ,EventArgs e)
+        {
+            btnAddProduct.Enabled = true;
+            Button button = sender as Button;
+            lbNameProduct.Text =button.Text;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnAllProduct_Click(object sender, EventArgs e)
         {
-            flowDish.Controls.Clear();
-            Button btn = sender as Button;
-            for (int i = 0; i < 14; i++)
-            {
-                Label lb = new Label();
-                lb.Size = new Size(100, 60);
-                lb.Text = i.ToString();
-                flowDish.Controls.Add(lb);
-            }
+            LoadAllProduct();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
