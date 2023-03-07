@@ -36,6 +36,11 @@ namespace quanlycafe
             }    
         }
 
-
+        private void btnAddDish_Click(object sender, EventArgs e)
+        {
+            FrmCategory frmCategory =new FrmCategory();
+            
+            frmCategory.Show();
+        }
     }
 }
